@@ -1,19 +1,3 @@
-provider "random" {
-  version = "~> 1.0"
-}
-
-provider "local" {
-  version = "~> 1.1"
-}
-
-provider "null" {
-  version = "~> 1.0"
-}
-
-provider "tls" {
-  version = "~> 1.0"
-}
-
 resource "random_string" "random-dir" {
   length  = 8
   special = false
